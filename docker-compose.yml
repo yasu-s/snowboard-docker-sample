@@ -2,11 +2,9 @@ version: "3"
 services:
   snowboard-sample:
     container_name: snowboard-sample
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: quay.io/bukalapak/snowboard:v3.7.5
     ports:
       - "8088:8088"
     volumes:
       - "./doc:/doc"
-    command: snowboard http -c /doc/config.yaml /doc/API.apib
+    command: http -c /doc/config.yaml /doc/API.apib
