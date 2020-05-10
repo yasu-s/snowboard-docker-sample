@@ -1,0 +1,6 @@
+{
+  "git.ignoreLimitWarning": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+}

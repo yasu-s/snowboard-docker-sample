@@ -1,0 +1,9 @@
+html:
+  playground:
+    enabled: true
+    env: development
+    environments:
+      development:
+        url: http://localhost:8087/
+      staging:
+        url: https://staging.example.com/
